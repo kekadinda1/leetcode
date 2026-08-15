@@ -1,3 +1,4 @@
+#28. Find the Index of the First Occurrence in a String
 class Solution:
     def strStr(self, haystack, needle):
         n = len(haystack)
@@ -14,16 +15,11 @@ class Solution:
 
         return -1
 
-
-# Object creation
 obj = Solution()
 
-# Input
 haystack = "sadbutsad"
 needle = "sad"
 
-# Calling the method
 result = obj.strStr(haystack, needle)
 
-# Output
 print(result)
