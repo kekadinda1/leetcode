@@ -13,7 +13,6 @@ class Solution:
             nums[k] = 0
             k += 1
         return nums
-
 obj = Solution()
 output = obj.moveZeroes([0,1,0,3,12])
 print(output)
